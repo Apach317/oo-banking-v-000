@@ -1,9 +1,8 @@
 class Transfer
-  attr_accessor :transfer, :sender, :reciever, :amount, :status, :name
+  attr_accessor :status
 
-  def initialize(name)
-    @status = "pending"
-    @name = name
+  def initialize(status)
+    @status = 'pending'
   end
 
   def valid?
