@@ -20,6 +20,7 @@ class BankAccount
     if @status == 'open' || @balance > 0
       return true
     elsif @status == 'broke' || @status == 'closed'|| @balance < 0
+      return false
     end
   end
 
