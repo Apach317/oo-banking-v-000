@@ -5,8 +5,6 @@ class Transfer
     @transfer = transfer
     @sender = sender
     @reciever = reciever
-    @amount
-
   end
 
   def valid?
