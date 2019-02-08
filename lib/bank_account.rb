@@ -9,7 +9,7 @@ class BankAccount
   end
 
   def deposit(balance)
-    @balance = @balance + @amount
+    @balance = @balance + @amount.fixnum
   end
 
   def display_balance
