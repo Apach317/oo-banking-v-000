@@ -31,4 +31,5 @@ class Transfer
     @status = 'reversed'
     puts @status
   end
+  end
 end
