@@ -29,5 +29,4 @@ class Transfer
     receiver.balance -= amount
     @status = 'reversed'
     return @status
-  end
 end
