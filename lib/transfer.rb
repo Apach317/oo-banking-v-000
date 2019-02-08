@@ -2,9 +2,10 @@ class Transfer
   attr_accessor :transfer, :sender, :reciever, :amount
 
   def initialize(transfer = "pending")
-    @transfer = transfer
-    @sender = sender
-    @reciever = reciever
+    @transfer
+    @sender
+    @reciever
+    @amount 
   end
 
   def valid?
